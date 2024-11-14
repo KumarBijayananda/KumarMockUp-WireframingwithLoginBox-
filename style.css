@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  background-color: #f8e9db;
+}
+
+.navBar {
+  position: fixed;
+  top: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0) 40%,
+    rgba(0, 0, 0, 0.7) 60%
+  );
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  height: 80px;
+  width: 100%;
+  font-size: 1.2rem;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.menu:hover {
+  font-weight: bolder;
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+.banner {
+  display: flex;
+  background: url("https://images.unsplash.com/photo-1669205073423-5da5a5280572?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.heroTextContainer {
+  width: 25%;
+  height: 700px;
+}
+.heroImageContainer {
+  width: 500%;
+  height: 700px;
+}
+
+.heroText {
+  margin: 10%;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 6rem;
+  text-align: center;
+}
+
+.loginContainer {
+  width: 25%;
+  height: 700px;
+  min-width: 250px;
+}
+.userLogin {
+  max-width: 500px;
+  text-align: center;
+  margin: 20% 10% 20% 0;
+  -webkit-box-shadow: 10px 13px 5px -6px rgba(77, 77, 77, 0.69);
+  -moz-box-shadow: 10px 13px 5px -6px rgba(77, 77, 77, 0.69);
+  box-shadow: 10px 13px 5px -6px rgba(77, 77, 77, 0.69);
+  height: 50%;
+  padding: 5%;
+}
+
+.inputField {
+  margin: 7% 0;
+  width: auto;
+}
+
+.featureProduct {
+  border: double black;
+  height: 600px;
+  width: 100%;
+  margin: 20px;
+  align-items: bottom;
+}
+
+.featureContainer {
+  border: 2px solid black;
+  display: flex;
+  width: 100%;
+}
+.grid {
+  border: 5px solid red;
+  display: flex;
+  width: 80%;
+  object-fit: cover;
+}
+
+.square {
+  border: 3px solid blue;
+  padding: 20px;
+  width: 100%;
+  background-color: white;
+  object-fit: cover;
+}
+
+.featureText {
+  width: 20%;
+  overflow: hidden;
+  border: dotted blue;
+  min-width: 20%;
+}
+.productText {
+  width: 100%;
+  height: 600px;
+}
+
+.otherProductCont {
+  border: solid green;
+  height: 400px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.otherProduct {
+  border: solid green;
+  width: 33%;
+  margin: 20px;
+}
+.other {
+  width: 100%;
+}
+
+.exploreMore {
+  border: solid red;
+  height: auto;
+  margin: 20px;
+}
+.exploreitemBox {
+  border: solid green;
+  display: flex;
+  height: 300px;
+}
+
+.exploreImageCont {
+  border: solid yellow;
+  margin: 20px;
+  height: 250px;
+  width: 50%;
+}
+.exploreItem {
+  border: dotted blue;
+  margin: 20px;
+  width: 50%;
+  height: 250px;
+}
+.footer {
+  border: solid black;
+  height: 200px;
+  margin: 20px;
+}
